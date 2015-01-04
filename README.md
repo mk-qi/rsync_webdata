@@ -3,7 +3,7 @@
 
 基本架构
   
-      normal webserver but not server user                 
+      normal webserver but not serve user                 
      soucecode    soucecode   soucecode
          s1          s2         s3
            \         |         /
