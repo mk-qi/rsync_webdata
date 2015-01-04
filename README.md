@@ -22,8 +22,9 @@
            \         |         /
              \       |       /             
                \     |     /
-                 \   |   /
-                   \ | /
-                     |        / call rsync
-                  rsync_webdata
-                              \ trigger  call rsync
+                 \   |   /   
+               ssh or crontab
+                     |
+                     |        / call rsync pull code
+                 rsync_webdata
+                              \ trigger call rsync
